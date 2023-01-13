@@ -1,0 +1,85 @@
+﻿*{
+    background-color: tan;
+}
+.parent{
+    position: relative;
+
+}
+.background{
+    position: relative;
+    width: 959px;
+    height: 315px;
+    background-image: url(images/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    display: block;
+    margin: 0 auto;
+}
+.me{
+    position: absolute;
+    background-image: url(images/Me.png);
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+    top: 30px;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.name{
+    text-align: center;
+    color: black;
+}
+.intro{
+    text-align: center;
+    color: black;
+}
+.tabs{
+    border: none;
+    display: flex;
+}
+
+.tabs__sidebar {
+    width: 125px;
+    flex-shrink: 0;
+    background: tan;
+}
+
+.tabs__button{
+    
+    display: block;
+    padding: 10px;
+    background: brown;
+    border: none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+.tabs__button:active{
+    background: #dddddd;
+}
+
+.tabs__button:not(last-of-type)
+
+.tabs__button--active{
+    font-weight: bold;
+    border: 2px solid brown;
+    background: tan;
+}
+
+.tabs__content{
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+    display: none;
+}
+.tabs__content--active {
+    display: block;
+}
+.tabs__content > :first-child {
+    margin-top: 0;
+}
+
