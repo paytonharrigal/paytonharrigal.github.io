@@ -39,12 +39,14 @@
 .tabs{
     border: none;
     display: flex;
+    
 }
 
 .tabs__sidebar {
     width: 125px;
     flex-shrink: 0;
     background: tan;
+    
 }
 
 .tabs__button{
@@ -52,17 +54,19 @@
     display: block;
     padding: 10px;
     background: brown;
-    border: none;
     width: 100%;
     outline: none;
     cursor: pointer;
 }
 
 .tabs__button:active{
-    background: #dddddd;
+    background: tan;
+    border: 2px solid brown;
 }
 
-.tabs__button:not(last-of-type)
+.tabs__button:not(last-of-type){
+    border: black;
+}
 
 .tabs__button--active{
     font-weight: bold;
