@@ -168,3 +168,51 @@ img {
   background-image: url(icons/triathlon.png);
   
 }
+.shirts{
+  position: relative;
+  width: 600px;
+  height: 850px;
+  background-image: url(merch_pics/shirts.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hoodies{
+  position: relative;
+  width: 600px;
+  height: 850px;
+  background-image: url(merch_pics/hoodie.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.jackets{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-image: url(merch_pics/jacket.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.sweatpants{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-image: url(merch_pics/sweatpants.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hats{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-image: url(merch_pics/hats.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.backpacks{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-image: url(merch_pics/backpack.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
