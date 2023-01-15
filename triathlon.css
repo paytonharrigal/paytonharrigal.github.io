@@ -124,3 +124,47 @@ img {
     background: orangered;
     color: white !important
   }
+.SwimIcon{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(icons/swimming-man.png);
+  left: 40%;
+}
+.BikeIcon{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(icons/bike.png);
+  left: 40%;
+}
+.RunIcon{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(icons/run.png);
+  left: 40%;
+}
+.LiftIcon{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(icons/weightlifter-frontal-silhouette.png);
+  left: 40%;
+}
+.MeetingIcon{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-image: url(icons/meeting.png);
+  left: 40%;
+}
+.TriathlonIcon{
+  position: relative;
+  top: 0px;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  background-image: url(icons/triathlon.png);
+  
+}
