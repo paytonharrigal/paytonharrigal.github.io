@@ -17,11 +17,31 @@
   clear: both;
   display: table;
 }
-img {
-  float: left;
-  width:  300px;
-  height: 300px;
-  object-fit: cover;
+
+
+.teamPic1{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-image: url(images/teamPic.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.teamPic2{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-image: url(images/teamPic2.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.teamPic3{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-image: url(images/teamPic3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .tab {
