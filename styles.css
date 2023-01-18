@@ -93,14 +93,7 @@
     width: 64px;
     height: 64px;
     bottom:30px ;
-    background-image: url(icons/minecraftIcon.png);
-  }
-.ec2Icon{
-    position: relative;
-    width: 64px;
-    height: 64px;
-    bottom:30px ;
-    background-image: url(icons/minecraftIcon.png);
+    background-image: url(icons/mIcon.png);
   }
   .awsIcon{
     position: relative;
@@ -109,5 +102,5 @@
     background-size: contain;
     background-repeat: no-repeat;
     bottom:30px ;
-    background-image: url(icons/awsIcon.png);
+    background-image: url(icons/aIcon.png);
   }
