@@ -87,3 +87,27 @@
     margin-top: 0;
 }
 
+
+.minecraftIcon{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    bottom:30px ;
+    background-image: url(icons/minecraftIcon.png);
+  }
+.ec2Icon{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    bottom:30px ;
+    background-image: url(icons/minecraftIcon.png);
+  }
+  .awsIcon{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:30px ;
+    background-image: url(icons/awsIcon.png);
+  }
