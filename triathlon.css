@@ -195,6 +195,12 @@
   background-image: url(merch_pics/shirts.JPG);
   background-size: contain;
   background-repeat: no-repeat;
+  transition: .5s;
+
+}
+.shirts:hover{
+  transform: scale(1.05);
+  z-index: 2;
 }
 .hoodies{
   position: relative;
@@ -204,6 +210,10 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.hoodies:hover{
+  transform: scale(1.05);
+  z-index: 2;
+}
 .jackets{
   position: relative;
   width: 600px;
@@ -211,6 +221,10 @@
   background-image: url(merch_pics/jacket.PNG);
   background-size: contain;
   background-repeat: no-repeat;
+}
+.jackets:hover{
+  transform: scale(1.05);
+  z-index: 2;
 }
 .sweatpants{
   position: relative;
@@ -220,6 +234,10 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.sweatpants:hover{
+  transform: scale(1.05);
+  z-index: 2;
+}
 .hats{
   position: relative;
   width: 600px;
@@ -228,6 +246,10 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+.hats:hover{
+  transform: scale(1.05);
+  z-index: 2;
+}
 .backpacks{
   position: relative;
   width: 600px;
@@ -235,4 +257,8 @@
   background-image: url(merch_pics/backpack.PNG);
   background-size: contain;
   background-repeat: no-repeat;
+}
+.backpacks:hover{
+  transform: scale(1.05);
+  z-index: 2;
 }
