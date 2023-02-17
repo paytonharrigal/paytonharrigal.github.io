@@ -121,3 +121,22 @@
     bottom:30px ;
     background-image: url(icons/pythonIcon.png);
 }
+.haven{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:30px ;
+    background-image: url(icons/haven.png);
+}
+.wordpress{
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:30px ;
+    background-image: url(icons/wordpress.png);
+}
