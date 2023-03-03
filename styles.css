@@ -140,3 +140,28 @@
     bottom:30px ;
     background-image: url(icons/wordpress.png);
 }
+.PDFIcon{
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:30px ;
+    background-image: url(icons/PDF_Icon.png);
+}
+.LeetCodeIcon{
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:30px ;
+    background-image: url(icons/LeetCode_Icon.png);
+}
+
+.LinkedInIcon{
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom:30px ;
+    background-image: url(icons/LinkedIn_Icon.png);
+}
